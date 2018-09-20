@@ -1,0 +1,33 @@
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
+hr{
+  border-top: 1px solid rgba(0,0,0,0);
+}
+.background{
+  /* background-image: url('../img/src/background_2x.png'); */
+  background-image: url('../img/svg/background.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  overflow: visible;
+  cursor: default;
+  height: 150vh;
+}
+
+@media (min-width: 768px){
+  #uterus{
+    left: 63px;
+  }
+}
+.black-outline{
+  border-color: black !important;
+  color: black !important;
+}
+
+.m-top-50{
+  margin-top: 50px;
+}

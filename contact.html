@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>I Organ</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+  <body>
+    <!-- Start your project here-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <a class="navbar-brand" href="#">
+            <img src="img/src/iorgan_logo@2x.png"  width="364"alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="row m-top-50">
+        <!-- Navigation -->
+        <div class="col-md-4">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-primary black-outline" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-primary black-outline" href="#">Brain</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-primary black-outline" href="#">Lungs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-primary black-outline" href="#">Heart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-primary black-outline" href="#">Liver</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-primary black-outline" href="#">Uterus</a>
+            </li>
+            <div class="nav-item m-top-50">
+              <li class="nav-item">
+                <a class="nav-link other-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link other-link" href="contact.html">Contact</a>
+              </li>
+            </div>
+         </ul>
+        </div>
+        <!-- Navigation -->
+        <div class="col-md-8 background">
+          <div class="card">
+            <div class="card-body">
+              <!-- Starting of ajax contact form -->
+              <form class="contact__form" method="post" action="mail.php">
+                  <!-- Starting of successful form message -->
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                              Your message was sent successfully.
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Ending of successful form message -->
+
+                  <!-- Element of the ajax contact form -->
+                  <div class="row">
+                      <div class="col-md-6 form-group">
+                          <input name="name" type="text" class="form-control" placeholder="Name" required>
+                      </div>
+                      <div class="col-md-6 form-group">
+                          <input name="email" type="email" class="form-control" placeholder="Email" required>
+                      </div>
+                      <div class="col-md-6 form-group">
+                          <input name="phone" type="text" class="form-control" placeholder="Phone" required>
+                      </div>
+                      <div class="col-md-6 form-group">
+                          <input name="subject" type="text" class="form-control" placeholder="Subject" required>
+                      </div>
+                      <div class="col-12 form-group">
+                          <textarea name="message" class="form-control" rows="3" placeholder="Message" required></textarea>
+                      </div>
+                      <div class="col-12">
+                          <input name="submit" type="submit" class="btn btn-success" value="Send Message">
+                      </div>
+                  </div>
+              </form>
+              <!-- Ending of ajax contact form -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+  </body>
+
+</html>

@@ -26,6 +26,7 @@ hr{
 .black-outline{
   border-color: black !important;
   color: black !important;
+  background-color: transparent !important;
 }
 
 .m-top-50{

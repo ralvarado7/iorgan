@@ -1,4 +1,3 @@
-
 (function ($) {
     'use strict';
     var form = $('.contact__form'),
@@ -34,4 +33,4 @@
         .fail(fail_func);
     });
 
-})(jQuery);  
+})(jQuery);

@@ -32,3 +32,6 @@ hr{
 .m-top-50{
   margin-top: 50px;
 }
+ iframe{
+   border-width: 0px ;
+ }

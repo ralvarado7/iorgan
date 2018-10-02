@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+
 html{
   height: 100%;
 }
@@ -6,6 +8,14 @@ body{
 }
 hr{
   border-top: 1px solid rgba(0,0,0,0);
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+h1.title{
+  font-size: 5rem;
+  color: grey;
 }
 .background{
   /* background-image: url('../img/src/background_2x.png'); */

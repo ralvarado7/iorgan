@@ -6,7 +6,7 @@ html{
 body{
   min-height: 100%;
 }
-hr{
+hr.background-hr{
   border-top: 1px solid rgba(0,0,0,0);
 }
 h1{
@@ -16,6 +16,9 @@ h1{
 h1.title{
   font-size: 5rem;
   color: grey;
+}
+ul{
+  list-style: none;
 }
 .background{
   /* background-image: url('../img/src/background_2x.png'); */
@@ -48,13 +51,17 @@ h1.title{
 .iframe-container {
     position: relative;
     overflow: hidden;
-    /* padding-top: 56.25%; */
+    padding-top: 56.25%;
 }
 .resp-iframe{
-  position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+.white-text{
+  color: white;
 }

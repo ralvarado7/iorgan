@@ -2,16 +2,25 @@
 
 html, body{
   height: 100%;
-  position: relative;
+}
+#container{
+  min-height: 100%;
 }
 #main{
-  /* min-height: 100vh; */
+  overflow: auto;
+  padding-bottom: 90px;
+  min-height: 1024px;
 }
-footer{
-height: 90px;
-clear: both;
-width: 100%;
-/* position: absolute; */
+#footer{
+  height: 90px;
+  width: 100%;
+  margin-top: -90px;
+  clear: both;
+  position: relative;
+}
+#heart{
+  position: relative;
+  right: -100px;
 }
 hr.background-hr{
   border-top: 1px solid rgba(0,0,0,0);
@@ -31,11 +40,11 @@ ul{
 .background{
   background-image: url('../img/svg/background.svg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   /* position: absolute; */
   /* overflow: hidden; */
   cursor: default;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 @media (min-width: 768px){

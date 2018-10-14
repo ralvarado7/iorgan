@@ -60,6 +60,19 @@ ul{
       height: 100px !important;
     }
 }
+.menu-icon{
+  position: relative;
+  top: -15px;
+  left: 10px
+}
+li{
+  width: 150px;
+
+}
+li.nav-item:hover{
+  background-color: silver;
+  border-radius: 5px;
+}
 
 .black-outline{
   border-color: black !important;
@@ -68,10 +81,11 @@ ul{
 }
 
 .m-top-50{
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .nav-link{
   color: black !important;
+  margin-left: 10px;
 }
 .iframe-container {
     position: relative;

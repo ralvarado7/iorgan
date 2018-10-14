@@ -8,15 +8,16 @@ html, body{
 }
 #main{
   overflow: auto;
-  padding-bottom: 90px;
+  padding-bottom: 110px;
   min-height: 1024px;
 }
 #footer{
-  height: 90px;
+  height: 110px;
   width: 100%;
-  margin-top: -90px;
+  margin-top: -110px;
   clear: both;
   position: relative;
+  background-color: silver;
 }
 #heart{
   position: relative;
@@ -59,13 +60,16 @@ ul{
     img.organs-mobile{
       height: 100px !important;
     }
+    #footer{
+      height: 200px;
+    }
 }
 .menu-icon{
   position: relative;
   top: -15px;
   left: 10px
 }
-li{
+li.nav-item{
   width: 150px;
 
 }
@@ -73,7 +77,16 @@ li.nav-item:hover{
   background-color: silver;
   border-radius: 5px;
 }
-
+footer p{
+  padding: 12px;
+}
+footer img{
+  height: 80px;
+  margin-top: 12px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
 .black-outline{
   border-color: black !important;
   color: black !important;

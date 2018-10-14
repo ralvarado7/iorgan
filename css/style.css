@@ -55,6 +55,11 @@ ul{
     flex-direction: column!important;
   }
 }
+@media (max-width: 768px) {
+    img.organs-mobile{
+      height: 100px !important;
+    }
+}
 
 .black-outline{
   border-color: black !important;
